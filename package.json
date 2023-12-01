@@ -1,6 +1,6 @@
 {
   "name": "pacdown",
-  "version": "2.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "📝基于 Vue、Vditor，所构建的在线 Markdown 编辑器，支持流程图、甘特图、时序图、任务列表、HTML 自动转换为 Markdow等功能。",
   "scripts": {
@@ -12,7 +12,6 @@
     "lint": "vue-cli-service lint",
     "test": "vue-cli-service test:unit",
     "testbuild": "vue-cli-service build --mode development",
-    "deploy": "bash ./commands/deploy.sh",
     "analyz": "NODE_ENV=production  npm_config_report=true npm run build",
     "clear-commit-msg": "bash ./commands/clear-commit-msg.sh",
     "eslint-fix": "eslint src/**/**/*.vue --fix",
